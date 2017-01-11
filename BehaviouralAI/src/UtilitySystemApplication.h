@@ -4,6 +4,7 @@
 
 // only needed for the camera picking
 #include <glm/vec3.hpp>
+#include "../UtilityNPC.h"
 
 class Camera;
 class World;
@@ -27,5 +28,6 @@ private:
 
 
 	World*		m_pWorld;
-	BaseNPC*	m_pNPC;
+	//BaseNPC*	m_pNPC;
+	UtilitySystem::UtilityNPC*	m_pNPC;
 };

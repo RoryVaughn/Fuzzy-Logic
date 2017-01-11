@@ -28,7 +28,14 @@ public:
 	glm::vec3	 getPosition() const { return m_vPosition;  }
 protected:
 	//Called every frame by update - should call one of the behaviour functions below.
-	virtual void selectAction(float a_fdeltaTime) { collectWater(a_fdeltaTime); }
+	virtual void selectAction(float a_fdeltaTime) {
+		collectWater(a_fdeltaTime);
+		collectFood(a_fdeltaTime);
+		rest(a_fdeltaTime);
+
+		chopTree(a_fdeltaTime);
+		buildHouse(a_fdeltaTime);
+	}
 
 	//Different behaviours that our AI can run - these will move the AI towards the required location
 	//and then do the task.

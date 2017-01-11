@@ -1,0 +1,5 @@
+(!a V b) ^ (b V c V !e) ^ (c V d) ^ (e V !a)
+(b V a) ^ (c V d) ^ (d V a)
+(a V c) ^ (d V c)
+(c V !b) ^ (b V d V g) ^ (b v !a ) ^ (a V e V !f)
+(a V b) ^ (b V !d V c) ^ (!c V f)

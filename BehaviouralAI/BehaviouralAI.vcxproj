@@ -29,6 +29,7 @@
     <ClCompile Include="src\UtilitySystemApplication.cpp" />
     <ClCompile Include="src\UtilityValue.cpp" />
     <ClCompile Include="src\World.cpp" />
+    <ClCompile Include="UtilityNPC.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BaseApplication.h" />
